@@ -1,12 +1,13 @@
 
 
+//  https://github.com/Mahy-460/assignment.js
 
 
 /*--------------------------------kilometerToMeter-----------------------------------*/
 
 
 function kilometerToMeter(kilometer){
-        var total =  kilometer * 1000;
+        var total =  kilometer * 1000;  // 1 kilometer = 1 meter
         return total;
 }
 
@@ -48,7 +49,7 @@ console.log(result);
 
 /*------------------------------hotelCost-------------------------*/
 
-function hotelCost(days){
+function hotelCost(days){          
     var day = 0;
     if(!(days > 0)){
         return "undifind";
