@@ -75,9 +75,9 @@ function hotelCost(days){
 var result = hotelCost(21);
 console.log(result);
 
-/*-----------------------------------------megaFrind--------------------------*/
+/*-----------------------------------------megaFriend--------------------------*/
 
-function megaFrind(frinds){
+function megaFriend(frinds){
     var max = [0];
 for(var i = 0; i<frinds.length;i++){
     var element = frinds[i];
@@ -90,7 +90,7 @@ return max;
 }
 
 var frinds = ["mahy Hassan ","laboni","albarte"];
-var result  = megaFrind(frinds);
+var result  = megaFriend(frinds);
 console.log(result);
 
 
