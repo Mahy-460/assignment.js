@@ -80,7 +80,7 @@ console.log(result);
 
 function megaFriend(frinds){
     var max = [0];
-for(var i = 0; i<frinds.length;i++){
+for(var i = 0; i < frinds.length ; i++){
     var element = frinds[i];
     if(max.length < frinds[i].length){
         max = frinds[i];
